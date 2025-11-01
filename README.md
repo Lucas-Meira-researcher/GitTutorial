@@ -8,7 +8,18 @@
   
 * `git remote add origin <link do repositório>` - Passar o commit do meu repositório local (da minha máquina) para repositório no Github
 
- * origin pode ser qualquer nome (Nomeia o repositório no github)
+## Configuração para dataset
+
+* `echo "Pasta com dados/" > .gitignore` - Ignora pasta de dados no git
+  
+* `cat .gitignore` - Confirma se ta ignorando
+  
+* `git add .gitignore` - Implementa no Github
+
+* `git commit -m "Adiciona .gitignore para ignorar a pasta de dados"` - Implementa no Github
+
+* `git push origin main` - Implementa no Github
+  
 
 # Comandos padrões (Main)
 
