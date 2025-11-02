@@ -10,7 +10,9 @@
 
 ## Configuração para dataset
 
-* `echo "Pasta com dados/" > .gitignore` - Ignora pasta de dados no git
+* `echo "#2 Exploracao empirica/ModAgregado/Regs/in_puts/" >> .gitignore` - Ignora essa pasta de dados no git
+
+* `echo "#2 Exploracao empirica/ModDesagregado/Regs/in_puts/" >> .gitignore` - Ignora essa pasta de dados no git
   
 * `cat .gitignore` - Confirma se ta ignorando
   
@@ -49,3 +51,16 @@
 * `git merge branch-1`
 
 * `git push origin main` - Atualiza no github o merge adicionado à main
+
+# Comandos adicionais
+
+Apagando branch:
+
+* `git branch -d nome-da-branch-que-voce-quer-apagar` - Apaga branch do diretório (Com D tu força a exclusão)
+
+* `git push origin --delete nome-da-branch-que-voce-quer-apagar` - Apaga branch do diretório (Com D tu força a exclusão)
+
+* `git restore --staged .` - Tira tudo que foi adicionado no stage
+
+* `rm -rf .git` - Zerando repositório (Procdeimento irreversível)
+
