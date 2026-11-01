@@ -35,6 +35,6 @@ Isso é importante pois direfentes projetos(scripts) podem usar versões diferen
 
 ## Atualizando bibliotecas se faltar alguma para rodar o código:
  * No git bash, retorne à pasta do projeto; ex: `cd /c/Users/Usuario/Desktop/Equidade/relatorio_escolas/relatorio_py`
- * Instala o que faltou diretamente na .venve do projeto; ex: `./.venv/Scripts/python.exe -m pip install google-cloud-bigquery db-dtypes`
-  * Confirma se instalou certinho: `./.venv/Scripts/python.exe -c "from google.cloud import bigquery; import db_dtypes; print('Bibliotecas instaladas corretamente')"`
+ * Instala o que faltou diretamente na .venve do projeto; ex: `./.venv/Scripts/python.exe -m pip install [BIBLIOTECAS]`
+  * Confirma se instalou certinho: `./.venv/Scripts/python.exe -c "from google.cloud import bigquery; import db_dtypes; print('Bibliotecas instaladas corretamente')"` #Conferir como faz isso direitinho só segui gpt
  * Atualiza requirements: `./.venv/Scripts/python.exe -m pip freeze > requirements.txt`
