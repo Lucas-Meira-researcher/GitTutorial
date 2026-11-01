@@ -21,3 +21,14 @@ Isso é importante pois direfentes projetos(scripts) podem usar versões diferen
 
 ## Criando requirements.txt
 `python -m pip freeze > requirements.txt` 
+
+## Configurando VScode para utilizar ambiente virtual criado
+**1. Abra a pasta do projeto no VS Code**
+* Clicar em **File** -> Clicar em **Open Folder** -> Selecionar diretório do projeto
+ * `cd /c/Users/Usuario/Desktop/Equidade/relatorio_escolas/relatorio_py`
+
+**2. Selecione o ambiente virtual**
+2.1 Abra a selção de interpretadores
+* Control+Shift+P -> Inserir `Python: Select Interpreter`
+2.2 Selecione o ambiente virtual
+* Deve aparecer algo como `.venv\Scripts\python.exe`
